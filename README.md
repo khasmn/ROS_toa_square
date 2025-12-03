@@ -62,3 +62,33 @@ After the loop completes, a final command sets all velocities to zero, ensuring 
     chmod +x draw_square.py
     rosrun turtle_training draw_square.py
     ```
+
+
+
+
+#  Turtlesim Movement and Pen Control Node (`turtle_move_node`)
+
+This ROS Python script initializes a node to interact with the `turtlesim_node` simulation environment. Its primary function is to **change the turtle's pen color to black** and then **teleport the turtle to four absolute positions** to draw a defined shape.
+
+---
+
+##  Prerequisites
+
+* **ROS (Robot Operating System)**: This code requires a working installation of ROS (e.g., Melodic, Noetic).
+* **Turtlesim Package**: The standard `turtlesim` ROS package must be installed.
+* **Python 3**: The script is written for Python 3.
+
+---
+
+##  How to Run the Code
+
+### 1. Save the Script
+
+Save the provided Python code in the `src` directory of your ROS package (e.g., `~/catkin_ws/src/my_package/src/move_and_color.py`).
+
+### 2. Make Executable
+
+Ensure the script has executable permissions:
+
+```bash
+chmod +x ~/catkin_ws/src/my_package/src/move_and_color.py
