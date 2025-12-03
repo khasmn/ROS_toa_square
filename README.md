@@ -1,10 +1,10 @@
-# 🤖 ROS Turtlesim Square Drawing Node
+# ROS Turtlesim Square Drawing Node
 
 This project contains a simple **ROS (Robot Operating System) Python node** that controls the virtual turtle in the **turtlesim** simulation environment to draw a perfect square. 
 
 ---
 
-## ⚙️ How It Works
+## How It Works
 
 This node uses **open-loop control** coupled with feedback from the turtle's position (`Pose`) to execute precise movements. The logic executes a cycle of moving a set distance and then turning a set angle, repeated four times.
 
